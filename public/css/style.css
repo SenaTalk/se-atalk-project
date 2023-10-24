@@ -24,7 +24,7 @@ main {
     padding: 20px;
 }
 
-h1, h2, p {
+.main-h1, .main-h2 {
     text-align: left;
 }
 
@@ -38,7 +38,7 @@ h1, h2, p {
     color: black;
 }
 
-h1 {
+.main-h1 {
     color: #086790;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inter;
@@ -48,7 +48,7 @@ h1 {
     line-height: normal;
 }
 
-h2 {
+.main-h2 {
     color: #086790;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inter;
@@ -68,4 +68,88 @@ h2 {
     line-height: normal;
     text-align: left;
     max-width: 900px;
+}
+
+/*Formulario*/
+
+.body-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #e6e0e0, #e6e0e0);
+}
+
+img {
+    margin-left: 130px;
+}
+
+.title{
+    height: 100px;
+    width: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 20px 25px;
+    /* box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7); */
+}
+
+form .title {
+    color: #252525;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+form label {
+    margin-bottom: 35px;
+}
+
+form label .fa-solid {
+    font-size: 20px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+form label input {
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 1px #000000;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder {
+    color: rgba(37, 37, 37, 0.5);
+}
+
+
+form .link {
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+form #btton {
+    color: #fff;
+    border: none;
+    background: #000000;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form #nc {
+    width: 170px;
+    height: 30px;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #777474;
+    margin-left: 120px;
 }
