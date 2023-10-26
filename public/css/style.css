@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Inter;
 }
 
 body {
-    background: linear-gradient(180deg, rgba(0, 194, 255, 0.70) 0%, #FFF 50%, rgba(0, 194, 255, 0.70) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-color: #001B26;
 }
 
 nav {
     border-bottom: 1px solid black;
+}
+
+.nav-link {
+    color: #fff;
 }
 
 main {
@@ -30,39 +33,44 @@ main {
 
 .start {
     display: block;
-    margin: 0 auto;
+    margin: 70px auto;
+    background-color: rgba(12, 82, 109, 0.44);
+    border-radius: 20px;
+    width: 300px;
+    height: 70px;
 }
 
 .start a {
+    font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #07E5FF;
 }
 
 .main-h1 {
-    color: #086790;
+    color: #07E5FF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Inter;
-    font-size: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
     font-style: italic;
     font-weight: 200;
     line-height: normal;
 }
 
 .main-h2 {
-    color: #086790;
+    color: #07E5FF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 48px;
     font-style: italic;
     font-weight: 200;
     line-height: normal;
 }
 
 .main-desc {
-    color: #086790;
+    color: #07E5FF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
