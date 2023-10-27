@@ -1,51 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>señas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            color: #4285f4;
-            margin: 0;
-            padding: 0;
-            background-color: #001B26;
-        }
-
-        header {
-            background-color: #001B26;
-            color: #4285f4;
-            padding: 10px;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-            padding: 0;
-        }
-
-        #content {
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #001B26;
-            padding: 20px;
-        }
-
-        .course {
-            border: 1px solid #00212f;
-            padding: 10px;
-            margin: 10px;
-            background-color: #001B26;
-        }
-
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/style.css">
 </head>
-<body>
+<body class="body-talk">
     <header>
-        <h1>lo tiene nahu</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand logo" href="../index.html"><img src="../public/img/LogoSeñaTalk.png" alt="Logo" class="navbar-icon señatalk-ico"></a>
+          
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon hamburguer"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ayuda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Usuario</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>          
     </header>
     <div id="content">
-        <h2>Mis Cursos</h2>
         <div class="course">
             <h3>Abecedario</h3>
             <a href="abecedario.html">Ver Curso</a>
@@ -58,9 +43,8 @@
             <h3>Colores</h3>
             <a href="colores.html">Ver Curso</a>
         </div>
-
-
-        
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

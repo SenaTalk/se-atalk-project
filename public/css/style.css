@@ -214,3 +214,27 @@ form .nc-a {
 .form-img {
     margin: auto;
 }
+
+/*TALK*/
+
+.body-talk {
+    font-family: Arial, sans-serif;
+    color: #4285f4;
+    margin: 0;
+    padding: 0;
+    background-color: #001B26;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #001B26;
+    padding: 20px;
+}
+
+.course {
+    border: 1px solid #00212f;
+    padding: 10px;
+    margin: 10px;
+    background-color: #001B26;
+}
