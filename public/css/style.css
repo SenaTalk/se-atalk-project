@@ -123,6 +123,13 @@ footer {
     margin: auto;
 }
 
+@media (max-width: 576px) {
+    .contact-desc {
+        color: #07E5FF;
+        font-size: 13px;
+    }
+}
+
 /*Formulario*/
 
 .body-form {
