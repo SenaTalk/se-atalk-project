@@ -196,7 +196,7 @@ form .link {
 form #button {
     color: #fff;
     border: none;
-    background: #000000;
+    background-color: rgba(12, 82, 109, 0.44);
     padding: 10px 15px;
     cursor: pointer;
     font-size: 20px;
