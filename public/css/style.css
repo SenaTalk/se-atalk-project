@@ -104,6 +104,14 @@ footer {
     border-top: 1px solid rgba(255, 253, 253, 0.12);
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .contact-title, .contact-desc {
     color: #07E5FF;
     text-align: center;
@@ -112,6 +120,7 @@ footer {
 .contact-img {
     width: 100px;
     height: 100px;
+    margin: auto;
 }
 
 /*Formulario*/
