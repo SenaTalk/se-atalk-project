@@ -56,6 +56,12 @@ main {
     height: 70px;
 }
 
+.start:hover {
+    background-color: rgba(12, 82, 109, 0.44);
+    width: 310px;
+    height: 80px;
+}
+
 .start a {
     font-size: 20px;
     text-decoration: none;
@@ -115,7 +121,6 @@ footer {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #e6e0e0, #e6e0e0);
 }
 
 img {
@@ -172,7 +177,7 @@ form .link {
     margin-bottom: 15px;
 }
 
-form #btton {
+form #button {
     color: #fff;
     border: none;
     background: #000000;
@@ -181,13 +186,17 @@ form #btton {
     font-size: 20px;
 }
 
-form #nc {
-    width: 170px;
-    height: 30px;
+form .nc {
+    display: block;
+    margin: 30px auto;
+    background-color: rgba(12, 82, 109, 0.44);
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+}
+
+form .nc-a {
     font-size: 20px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    background: #777474;
-    margin-left: 120px;
+    text-decoration: none;
+    color: #07E5FF;
 }
