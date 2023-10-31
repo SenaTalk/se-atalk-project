@@ -238,3 +238,8 @@ form .nc-a {
     margin: 10px;
     background-color: #001B26;
 }
+
+.course-link {
+    color: #fff;
+    text-decoration: none;
+}
