@@ -11,8 +11,14 @@ body {
 /* creacion del password */
 
 #title-h1{
-    margin-top: 50px;
+    text-align: center;
+    margin-left: 400px;
     color: #fff;
+}
+
+#createV{
+    margin-top: 50px;
+    margin-left: -330px;
 }
 
 .container {

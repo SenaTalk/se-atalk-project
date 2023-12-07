@@ -2,13 +2,16 @@
 <html>
     <head>
         <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../sender/sender.css">
     </head>
     <body>
-        <div>
-            <input placeholder="Enter username..."
+        <h1 id="title-h1">Ingrese a la Video Llamada</h1>
+
+        <div id="createV">
+            <input placeholder="Ingrese la clave..."
                     type="text"
                     id="username-input" /><br>
-            <button onclick="joinCall()">Join Call</button>
+            <button onclick="joinCall()">Entrar</button>
         </div>
         <div id="video-call-div">
             <video muted id="local-video" autoplay></video>
